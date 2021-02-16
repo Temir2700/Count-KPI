@@ -1,0 +1,219 @@
+body {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #8BC6EC;
+}
+.body {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.container{
+    max-width: 968px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 1rem;
+    font-family: Arial;
+}
+.container:first-child{
+    text-align: center;
+}
+.auth-form{
+    display: inline-block;
+    margin: 0 auto;
+    padding: 10%;
+    background-color: #8ec5fc;
+    background-image: linear-gradient(62deg,  #8ec5fc 0%, #e0c3fc 100%);
+    text-align: right;
+    border-radius: 30px;
+    box-shadow: 0 0 20px #a685e2;
+    border: 2px solid #949cdf;
+}
+.form:first-child{
+    margin: 5px;
+}
+.form:last-child{
+    margin: 0 auto;
+}
+.form input {
+    margin-bottom: 30px;
+    border-radius: 15px;
+    height: 20px;
+    border: 2px solid #a685e2;
+    padding: 15px;
+    font-size: 16px;
+    letter-spacing: 3px;
+}
+
+
+.form button {
+    width: 120px;
+    height: 40px;
+    border: 2px solid #a685e2;
+    color: #252525;
+    font-weight: 700;
+    letter-spacing: 2px;
+    cursor: pointer;
+    border-radius: 15px;
+    align-self: flex-end;
+    font-size: 14px;
+    transition: 0.5s;
+    background-size: 200% auto;
+    background-image: linear-gradient(to right, #CC95C0 0%, #DBD4B4  51%, #CC95C0  100%);
+ }
+
+ .form button:hover {
+   background-position: right center; 
+   color: #fff;
+   text-decoration: none;
+ }
+
+ .form input:focus{
+    outline: none;
+}
+.form button:focus{
+    outline: none;
+}
+
+.form:last-child{
+    text-align: center;
+}
+p{
+    text-align: center;
+    font-size: 24px; 
+    color: rgba(174,68,223,1);
+    font-weight: bold;
+}
+.container:last-child{
+    padding: 1rem;
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    max-width: 968px;
+}
+.list-form{
+    margin: 0 auto;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+li{
+    display: flex;
+    flex-direction: row;
+}
+
+.btn-delete{
+    width: 120px;
+    height: 40px;
+    border: 2px solid #a685e2;
+    color: #252525;
+    font-weight: 700;
+    letter-spacing: 2px;
+    background-image: linear-gradient(to right, #CC95C0 0%, #DBD4B4  51%, #CC95C0  100%);
+    cursor: pointer;
+    border-radius: 15px;
+    align-self: flex-end;
+    font-size: 14px;
+    transition: 0.5s;
+    background-size: 200% auto;
+}
+
+.btn-delete:hover {
+    background-position: right center; 
+    color: #fff;
+    text-decoration: none;
+}
+
+.btn-delete:focus{
+    outline:none;
+}
+.btn-edit{
+    width: 120px;
+    height: 40px;
+    border: 2px solid #a685e2;
+    color: #252525;
+    font-weight: 700;
+    letter-spacing: 2px;
+    background-image: linear-gradient(to right, #CC95C0 0%, #DBD4B4  51%, #CC95C0  100%);
+    cursor: pointer;
+    border-radius: 15px;
+    align-self: flex-end;
+    font-size: 14px;
+    transition: 0.5s;
+    background-size: 200% auto;
+}
+
+.btn-edit:hover {
+    background-position: right center; 
+    color: #fff;
+    text-decoration: none;
+}
+
+.btn-edit:focus{
+    outline: none;
+}
+.main-modal{
+   position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: none;
+
+}
+.inner-modal{
+     margin: 0 auto;
+    padding: 10%;
+    background-color: #8ec5fc;
+    background-image: linear-gradient(62deg,  #8ec5fc 0%, #e0c3fc 100%);
+    text-align: center;
+    border-radius: 30px;
+    box-shadow: 0 0 20px #a685e2;
+    border: 2px solid #949cdf;
+    align-self:center;
+   
+}
+
+.close{
+    text-align: right;
+} 
+
+.btn-save{
+    width: 120px;
+    height: 40px;
+    border: 2px solid #a685e2;
+    color: #252525;
+    font-weight: 700;
+    letter-spacing: 2px;
+    background-image: linear-gradient(to right, #CC95C0 0%, #DBD4B4  51%, #CC95C0  100%);
+    cursor: pointer;
+    border-radius: 15px;
+    align-self: flex-end;
+    font-size: 14px;
+    transition: 0.5s;
+    background-size: 200% auto; 
+}
+
+.btn-save:hover {
+    background-position: right center; 
+    color: #fff;
+    text-decoration: none;
+}
+
+.edit input {
+    margin-bottom: 30px;
+    border-radius: 15px;
+    height: 20px;
+    border: 2px solid #a685e2;
+    padding: 15px;
+    font-size: 16px;
+    letter-spacing: 3px;
+}
+
+.edit input:focus{
+    outline: none;
+}
+
